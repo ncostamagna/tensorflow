@@ -50,3 +50,13 @@ tf.Variable(rand_norm_t)
 # Convertir a tensor
 tf.convert_to_tensor(1988)
 ```
+
+# Regresion Lineal
+
+At * A -> Siempre da una matriz cuadrada
+
+### Descomposicion Cholesky o LU
+El problema esta cuando hay matrices muy grandes, eso nos ayuda a tener mayo eficiencia que el <br />
+$$x = (A^TA)^{-1}A^Tb$$ <br />
+Obtener un conjunto de matrices a partir de una matriz y operar con ellas, aca es donde viene LU<br />
+<img src="images/1.png"><br />
