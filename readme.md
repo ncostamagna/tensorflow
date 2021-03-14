@@ -53,10 +53,21 @@ tf.convert_to_tensor(1988)
 
 # Regresion Lineal
 
-At * A -> Siempre da una matriz cuadrada
+At * A -> Siempre da una matriz cuadrada<br />
+
+De todas las rectas posibles cual es la que minimiza mas la distancia<br />
+<img src="images/3.png"><br />
 
 ### Descomposicion Cholesky o LU
 El problema esta cuando hay matrices muy grandes, eso nos ayuda a tener mayo eficiencia que el <br />
 $$x = (A^TA)^{-1}A^Tb$$ <br />
 Obtener un conjunto de matrices a partir de una matriz y operar con ellas, aca es donde viene LU<br />
 <img src="images/1.png"><br />
+
+### Rateos de aprendizaje
+<img src="images/2.png"><br />
+
+### Regresion Lineal Deming
+Lo que lo diferencia de la RL es la tecnica que utilizareos,
+minimizaermos la proyeccion con respecto a la recta, minimizamos la recta en perpendicular, **NO MINIMIZA EL ERROR EN Y, MINIMIZA EL ERROR TANTO EN X COMO EN Y**<br />
+<img src="images/4.png"><br />
