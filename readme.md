@@ -71,3 +71,6 @@ Obtener un conjunto de matrices a partir de una matriz y operar con ellas, aca e
 Lo que lo diferencia de la RL es la tecnica que utilizareos,
 minimizaermos la proyeccion con respecto a la recta, minimizamos la recta en perpendicular, **NO MINIMIZA EL ERROR EN Y, MINIMIZA EL ERROR TANTO EN X COMO EN Y**<br />
 <img src="images/4.png"><br />
+
+# Regresion Logistica
+Probabilidad de pertenecer a un conjunto de datos, es si o no<br />
