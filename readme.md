@@ -74,3 +74,7 @@ minimizaermos la proyeccion con respecto a la recta, minimizamos la recta en per
 
 # Regresion Logistica
 Probabilidad de pertenecer a un conjunto de datos, es si o no<br />
+
+# SVM
+Seria lo que engloba la parte de la linea de la regresion, separaremos distancia entre las categorias para minimizar el error<br />
+<img src="images/5.png"><br />
