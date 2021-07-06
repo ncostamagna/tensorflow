@@ -1,4 +1,14 @@
 # Inicio
+- [Bases](#bases)
+    + [Variables](#variables)
+- [Regresion Lineal](#regresion-lineal)
+    + [Descomposicion Cholesky o LU](#descomposicion-cholesky-o-lu)
+    + [Rateos de aprendizaje](#rateos-de-aprendizaje)
+    + [Regresion Lineal Deming](#regresion-lineal-deming)
+- [Regresion Logistica](#regresion-logistica)
+- [SVM](#svm)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
 # Bases
