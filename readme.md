@@ -7,9 +7,18 @@
     + [Regresion Lineal Deming](#regresion-lineal-deming)
 - [Regresion Logistica](#regresion-logistica)
 - [SVM](#svm)
-
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
+# Instalacion
+
+INstaacion **Tensorflow 2.0**
+```sh
+conda create --name py3-TF2.0 python=3
+conda activate py3-TF2.0
+conda install tensorflow
+pip install --upgrade tensorflow
+pip install ipykernel
+```
 
 # Bases
 
@@ -67,6 +76,10 @@ At * A -> Siempre da una matriz cuadrada<br />
 
 De todas las rectas posibles cual es la que minimiza mas la distancia<br />
 <img src="images/3.png"><br />
+
+### Regresion Lineal Multiple
+<img src="images/6.png"><br />
+<img src="images/7.png"><br />
 
 ### Descomposicion Cholesky o LU
 El problema esta cuando hay matrices muy grandes, eso nos ayuda a tener mayo eficiencia que el <br />
