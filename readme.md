@@ -21,7 +21,15 @@ pip install ipykernel
 ```
 
 # Bases
+<img src="images/6.png"><br />
+Introduce el concepto de TPU (Tensor Processing Units) que mejora la performance<br />
+<img src="images/7.png"><br />
 
+**Se enfoca en redes neuronales**<br />
+TensorFlow es mejor para redes neuronales que scikit learn<br />
+TF introduce en nuevas versiones a Keras, en el 2015 era muy complejo y tenia una curva de aprendizaje complicada<br />
+TensorFlow 2 es basicamente Keras, toma lo mejor de Keras y TF1<br />
+Tensorflow no maneja los datos en xlsx o csv, porque necesita manejarlo como tensores, en multiple dimensiones, una solucion es NPZ files<br />
 Existen 11 pasos:
 - Importación o generación del conjunto de datos.
 - Transformación y normalización de los datos.
