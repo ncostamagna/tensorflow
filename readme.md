@@ -109,3 +109,54 @@ Probabilidad de pertenecer a un conjunto de datos, es si o no<br />
 # SVM
 Seria lo que engloba la parte de la linea de la regresion, separaremos distancia entre las categorias para minimizar el error<br />
 <img src="images/5.png"><br />
+
+# Modelo
+
+## Entrenamiento
+Utilizaremos la funcion de optimizacion y la funcion de coste. <br />
+Como funcion de optimizacion utilizaremos SGD (Stochastic gradient descent)
+```py
+custom_optimizer = tf.keras.optimizers.SGD(learning_rate=0.02)
+```
+Como funcion de perdida utilizaremos el error medio de cuadrados
+```py
+model.compile(optimizer=custom_optimizer, loss='mean_squared_error')
+```
+Entrenaremos el modelo:
+```py
+model.fit(training_data['inputs'], training_data['targets'], epochs=100, verbose=2)
+```
+Con **verbose** indicamos:<br/>
+- con 0 que sea en silencio, sin mostrar nada
+- con 1 mostramos una barra de progreso
+```sh
+Epoch 1/100
+32/32 [==============================] - 0s 553us/step - loss: 23.0959
+Epoch 2/100
+32/32 [==============================] - 0s 741us/step - loss: 1.1450
+Epoch 3/100
+32/32 [==============================] - 0s 788us/step - loss: 0.3997
+```
+- con 2 muestra una linea por epoch
+```sh
+Epoch 1/100
+32/32 - 0s - loss: 29.4114
+Epoch 2/100
+32/32 - 0s - loss: 1.2601
+Epoch 3/100
+32/32 - 0s - loss: 0.4172
+```
+
+## Prediccion
+Para predecir podemos utilizar **predict_on_batch**
+```py
+model.predict_on_batch(training_data['inputs'])
+```
+## Plot de datos
+POdemos visualizar que tanto se alejan las predicciones de los targets
+```py
+plt.plot(np.squeeze(model.predict_on_batch(training_data['inputs'])), np.squeeze(training_data['targets']))
+plt.xlabel('outputs')
+plt.ylabel('targets')
+plt.show()
+```
