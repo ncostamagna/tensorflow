@@ -160,3 +160,13 @@ plt.xlabel('outputs')
 plt.ylabel('targets')
 plt.show()
 ```
+
+
+# Deep Learning
+ 
+## Hyper parametros
+Para redes neuronales<br />
+En lugar de trabajar con Weights (w) y Biases (b), trabajaremos con: 
+- Width: alto de las nn, por lo general siempre es la misma por capa
+- Depth: Profundidad de las nn 
+- Learning date: rateo de aprendizaje
