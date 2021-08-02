@@ -170,3 +170,11 @@ En lugar de trabajar con Weights (w) y Biases (b), trabajaremos con:
 - Width: alto de las nn, por lo general siempre es la misma por capa
 - Depth: Profundidad de las nn 
 - Learning date: rateo de aprendizaje
+
+# Activation Function
+
+<img src="images/6.png"><br />
+
+## Softmax
+<img src="images/7.png"><br />
+<img src="images/8.png"><br />
