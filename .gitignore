@@ -3,3 +3,10 @@
 */images/*
 */dataset/*
 */face_detector/*
+*/train.record
+*/test.record
+Tensorflow-Object-Detection-API-Train-Model/training
+Tensorflow-Object-Detection-API-Train-Model/inference*
+Tensorflow-Object-Detection-API-Train-Model/efficientdet_d0_coco17_tpu-32
+Tensorflow-Object-Detection-API-Train-Model/.ipynb_checkpoints
+Tensorflow-Object-Detection-API-Train-Model/models
