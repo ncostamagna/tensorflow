@@ -178,3 +178,18 @@ En lugar de trabajar con Weights (w) y Biases (b), trabajaremos con:
 ## Softmax
 <img src="images/7.png"><br />
 <img src="images/8.png"><br />
+
+# Gradient Descent
+
+### Stochastic Gradient Descent
+<img src="images/9.png"><br />
+
+
+### Momentum
+Utilizamos para conocer cual es el punto mas bajo<br />
+<img src="images/10.png"><br />
+
+### Aram
+<img src="images/11.png"><br />
+<img src="images/12.png"><br />
+<img src="images/13.png"><br />
